@@ -87,17 +87,8 @@ body {
 }
 
 @media screen and (max-width: 500px) {
-    .presentacion {
-        top: 160px;
-    }
-    .presentacion h1 {
-        font-size: 2em;
-    }
-    .presentacion h2 {
-        right: 10%;
-    }
-    .presentacion h5 {
-        font-size: 1.2rem;
+    .portada {
+        padding: 400px 0;
     }
 }
 
