@@ -21,7 +21,7 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    height: 97vh;
+    height: 100vh;
     position: relative;
     background-image: url(./images/Tarjeta\ nueva.jpg);
     background-repeat: no-repeat;
@@ -41,7 +41,7 @@ body {
     background-color: rgba(0, 0, 0, 0.664);
 }
 .portada {
-    position: fixed;
+    position: absolute;
     display: flex;
     flex-wrap: wrap;
     width: 50%;
@@ -89,7 +89,7 @@ body {
 
 @media screen and (max-width: 500px) {
     .portada {
-        padding: 210px 0;
+        padding: 250px 0;
     }
     .portada a {
         font-size: 22px;
