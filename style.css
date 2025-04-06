@@ -21,7 +21,7 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    height: 100vh;
+    height: 99vh;
     position: relative;
     background-image: url(./images/Tarjeta\ nueva.jpg);
     background-repeat: no-repeat;
