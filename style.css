@@ -22,7 +22,7 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    height: 100vh;
+    height: 95vh;
     position: relative;
     background-image: url(./images/Tarjeta\ nueva.jpg);
     background-repeat: no-repeat;
@@ -90,7 +90,7 @@ body {
 
 @media screen and (max-width: 500px) {
     .portada {
-        padding: 250px 0;
+        padding: 220px 0;
     }
     .portada a {
         font-size: 22px;
