@@ -41,6 +41,7 @@ body {
     background-color: rgba(0, 0, 0, 0.664);
 }
 .portada {
+    position: fixed;
     display: flex;
     flex-wrap: wrap;
     width: 50%;
@@ -88,7 +89,7 @@ body {
 
 @media screen and (max-width: 500px) {
     .portada {
-        padding: 150px 0;
+        padding: 200px 0;
     }
 }
 
