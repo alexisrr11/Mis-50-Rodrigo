@@ -91,5 +91,8 @@ body {
     .portada {
         padding: 200px 0;
     }
+    .portada a {
+        font-size: 21px;
+    }
 }
 
