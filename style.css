@@ -1,6 +1,6 @@
 :root {
-    --color-primary: rgba(98, 129, 146, 0.712);
-    --color-secondary: rgba(108, 124, 133, 0.712);
+    --color-primary: rgba(238, 203, 3, 0.699);
+    --color-secondary: rgba(204, 174, 4, 0.425);
     --color-terciario: #dedede;
     --color-cuarto: #fff;
 }
@@ -12,69 +12,22 @@
     font-size: 1.5rem;
 }
 body {
-    background-color: var(--color-secondary);
-    color: rgba(246, 247, 248, 0.712);
+    background-color: black;
+    color: rgba(246, 247, 248, 0);
     overflow-x: hidden;
     width: 100%;
 }
 .header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
     height: 100vh;
     position: relative;
-    background-color: rgba(0, 0, 0, 0.788);
-    background-image: url(./images/imagen\ 50\ Rodrigo.jpg);
+    background-image: url(./images/Tarjeta\ nueva.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     background-attachment: fixed;
     background-position: center;
-    z-index: -1;
-}
-.presentacion h2 {
-    color: var(--color-secondary);
-    font-size: 200px;
-    position: absolute;
-    right: 37%;
-    top: -40px;
-    z-index: -1;
-}
-.fecha-section {
-    display: flex;
-    justify-content: center;
-}
-.fecha-section h5 {
-    padding: 10px 20px;
-}
-.mesdia-section {
-    border-right: 3px solid var(--color-primary);
-    border-left: 3px solid var(--color-primary);
-}
-.mesdia-section h5 {
-    padding: 0 10px;
-}
-.marzo-mesdia {
-    color: var(--color-primary);
-}
-.portada {
-    text-align: center;
-    width: 100vw;
-}
-.presentacion {
-    background-color: rgba(0, 0, 14, 0.849);
-    justify-self: center;
-    text-align: center;
-    border-top: 2px solid #fff;
-    border-bottom: 2px solid #fff;
-    padding: 35px 0;
-    width: 100vw;
-}
-article h1 {
-    font-size: 100px;
-    font-weight: 100;
-    padding-bottom: 20px;
-    color: var(--color-terciario);
-    text-align: center;
-}
-.presentacion p {
-    font-size: 40px;
 }
 .bxs-music {
     color: var(--color-secondary);
@@ -86,206 +39,41 @@ article h1 {
     border: 3px solid var(--color-secondary);
     border-radius: 50%;
     background-color: rgba(0, 0, 0, 0.664);
-    z-index: 1;
 }
-.bx-chevrons-down {
-    color: var(--color-primary);
-    position: absolute;
-    bottom: 50px;
-    left: 48%;
-    font-size: 60px;
-    animation: floatAnimation 1.5s infinite ease-in-out;
+.portada {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content: center;
+    gap: 15px;
+    padding: 100px 0;
 }
-.bx-gift {
-    color: var(--color-secondary);
+.portada a {
+    display: flex;
+    align-items: center;
+    width: 150px;
+    color: black;
+    background-color: var(--color-primary);
+    border-radius: 20px;
+    padding: 0 5px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
 }
-.bx-closet {
-    color: var(--color-secondary);
-}
-.bx-volume-full {
-    color: var(--color-secondary);
+.portada a i {
+    text-align: center;
 }
 
-@keyframes floatAnimation {
-    0% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(15px); 
-    }
-    100% {
-        transform: translateY(0);
-    }
-}
-body section {
-    background-color: rgba(0, 0, 0, 0.445);
-}
-.cuenta-regresiva {
-    text-align: center;
-    padding: 60px;
-}
-.cuenta-regresiva h4 {
-    font-size: 2em;
-    font-weight: 500;
-    padding-bottom: 40px;
-    color: var(--color-primary);
-}
-.fecha {
-    display: flex;
-    justify-content: center;
-}
-.fecha div {
-    display: flex;
-    flex-direction: column;
-    padding: 0 30px;
-}
-.horas, 
-.minutos, 
-.segundos {
-    border-left: 1px solid white;
-}
-.numero {
-    font-size: 70px;
-    color: var(--color-primary);
-}
-.letra {
-    font-size: 30px;
-    font-weight: 100;
-}
-.main {
-    background-color: rgba(0, 0, 14, 0.849);
-}
-.estructura {
-    text-align: center;
-    position: relative;
-    padding: 30px;
-}
-.estructura h4 {
-    font-size: 3rem;
-    font-weight: 100;
-    color: var(--color-primary);
-    padding: 20px 0;
-    border-bottom: 1px solid white;
-}
-.estructura h5 {
-    font-size: 2rem;
-    font-weight: 500;
-    color: var(--color-primary);
-    padding: 20px 0;
-}
-.estructura p {
-    padding-bottom: 20px;
-}
-.estructura a {
-    padding: 10px;
-    width: 300px;
-    border-radius: 20px;
-    color: #fff;
-    background-color: var(--color-primary);
-    border: none;
-    list-style-type: none;
-    text-decoration: none;
-}
-.fiesta-content {
-    display: flex;
-    justify-content: center;
-    gap: 150px;
-    padding: 80px 0;
-    border-bottom: 1px solid white;
-}
-.adicionales {
-    padding: 30px 0;
-    display: flex;
-    gap: 50px;
-    justify-content: center;
-}
-.musica h5, 
-.vestimenta h5,
-.regalos h5 {
-    color: var(--color-primary);
-}
-.musica p, 
-.vestimenta p,
-.regalos p {
-    color: var(--color-cuarto);
-}
-.musica a,
-.vestimenta a,
-.regalos a {
-    background-color: var(--color-primary);
-}
-.regalos button,
-.vestimenta button {
-    cursor: pointer;
-    padding: 10px;
-    border-radius: 20px;
-    color: #fff;
-    background-color: var(--color-primary);
-    border: none;
-}
-.musica, 
-.vestimenta,
-.regalos {
-    background-color: rgba(240, 248, 255, 0.103);
-    padding: 30px;
-    border-radius: 20px;
-    width: 30vw;
-}
-.musica i, 
-.vestimenta i,
-.regalos i {
-    font-size: 50px;
-    color: var(--color-primary);
-}
-.vestimenta p,
-.regalos p {
-    padding-bottom: 60px;
-}
-.footer {
-    text-align: center;
-    padding: 30px;
-    height: 100vh;
-    background-color: var(--color-secondary);
-    background-image: linear-gradient(160deg, var(--color-primary) 0%, rgba(1, 15, 24, 0.986) 100%), url(./images/anita-austvika-WoWqrIP90do-unsplash.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; 
-}
-.footer h3 {
-    font-size: 2em;
-    font-weight: 200;
-    color: var(--color-cuarto);
-}
-.footer h5 {
-    font-weight: 100;
-    color: var(--color-cuarto);
-}
-.footer-a {
-    display: flex;
-    justify-content: space-around;
-    padding-right: 120px;
-}
-.footer-a a {
-    text-decoration: none;
-    list-style-type: none;
-    color: #fff;
-    padding: 30px;
-}
-.footer iframe {
-    width: 50vw;
-    height: 60%;
-    border-radius: 20px;
-}
-.hidden {
-    opacity: 0;
-    transform: translateY(50px);
-    transition: opacity 1.5s, transform 1.5s;
-}
-.visible {
-    opacity: 1;
-    transform: translateY(0);
-}
+
 @media screen and (max-width: 991px) {
+    .portada {
+        display: flex;
+        flex-wrap: wrap;
+        width: 85%;
+        justify-content: center;
+        gap: 15px;
+        padding: 100px 0;
+    }
     .presentacion h2 {
         right: 22%;
     }
@@ -295,40 +83,7 @@ body section {
         justify-self: center;
         padding-top: 70px;
     }
-    .musica, 
-    .vestimenta,
-    .regalos {
-        width: 70vw;
-    }
-    .musica button, 
-    .vestimenta button,
-    .regalos button {
-        width: auto;
-    }
-    .fiesta-content {
-        display: flex;
-        flex-direction: column;
-        gap: 50px;
-        padding: 30px 0;
-        border-bottom: 1px solid white;
-    }
-    .footer {
-        height: 100%;
-    }
-    .footer h5 {
-        padding-bottom: 15px;
-    }
-    .footer-a {
-        display: flex;
-        flex-direction: column-reverse;
-        padding-right: 0;
-        border-top: 1px solid white;
-    }
-    .footer iframe {
-        width: 80vw;
-        height: 50vh;
-        border-radius: 20px;
-    }
+
 }
 
 @media screen and (max-width: 500px) {
@@ -343,38 +98,6 @@ body section {
     }
     .presentacion h5 {
         font-size: 1.2rem;
-    }
-    .cuenta-regresiva {
-        padding: 20px;
-    }
-    .fecha div {
-        padding: 0 20px;
-    }
-    .numero {
-        font-size: 50px;
-    }
-    .letra {
-        font-size: 35px;
-    }
-    .fecha div {
-        padding: 0 15px;
-    }
-    .musica {
-        height: 60vh;
-        width: 95vw;
-        padding: 0px;
-    } 
-    .vestimenta,
-    .regalos {
-        height: auto;
-        width: 95vw;
-        padding: 0;
-    }
-    .regalos {
-        padding-bottom: 40px;
-    }
-    .fiesta-content {
-        border-bottom: none;
     }
 }
 
