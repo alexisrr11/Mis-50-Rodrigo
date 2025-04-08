@@ -94,6 +94,7 @@ body {
     }
     .portada a {
         font-size: 22px;
+        padding: 0;
     }
 }
 
