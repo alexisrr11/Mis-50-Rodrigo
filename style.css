@@ -54,6 +54,7 @@ body {
 .portada a {
     display: flex;
     align-items: center;
+    gap: 0;
     width: 150px;
     color: black;
     background-color: var(--color-primary);
