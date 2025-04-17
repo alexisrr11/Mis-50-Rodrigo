@@ -48,7 +48,7 @@ body {
     flex-wrap: wrap;
     width: 50%;
     justify-content: center;
-    gap: 15px;
+    gap: 50px;
     padding: 45px 0;
 }
 .portada a {
@@ -75,7 +75,6 @@ body {
         flex-wrap: wrap;
         width: 85%;
         justify-content: center;
-        gap: 15px;
     }
     .presentacion h2 {
         right: 22%;
@@ -99,4 +98,3 @@ body {
         width: 140px;
     }
 }
-
