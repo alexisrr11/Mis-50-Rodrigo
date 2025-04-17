@@ -48,7 +48,7 @@ body {
     flex-wrap: wrap;
     width: 50%;
     justify-content: center;
-    gap: 50px;
+    gap: 40px;
     padding: 45px 0;
 }
 .portada a {
